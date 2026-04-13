@@ -113,3 +113,37 @@
       cursor: pointer;
       color: #8081BD;
 }
+
+.main{
+      background: wheat;
+}
+
+.show_card{
+      display: flex;
+      align-items: center;
+      gap: 96px;
+      width: 1200px;
+      padding-top: 66px;
+}
+
+.show_program{
+      font-size: 40px;
+      font-weight: 700;
+      color: #8081BD;
+      vertical-align: middle;
+      padding-top: 53px;
+}
+
+.show_h2{
+      font-size: 32px;
+      font-weight: 700;
+      color: #8081BD;
+}
+
+.show_p{
+      font-size: 16px;
+      color: #334155;
+      font-weight: 500;
+      width: 770px;
+      padding-top: 31px;
+}
