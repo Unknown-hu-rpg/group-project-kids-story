@@ -1,0 +1,467 @@
+$footer-text: #4F4F4F;
+$blue-accent: #2D9CDB;
+$purple: #7D79B1;
+$blue: #42A5F5;
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        gap: 15px;
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+    }
+
+    .contacts {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 11px;
+
+        .phone {
+            text-align: right;
+
+            a {
+                display: block;
+                font-weight: 700;
+                font-size: 16px;
+                color: #000;
+                text-decoration: none;
+            }
+
+            button {
+                background: none;
+                border: none;
+                border-bottom: 1px dashed orange;
+                color: orange;
+                padding: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.btn {
+    background: $purple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.crumbs {
+    margin: 20px 0;
+    font-size: 12px;
+    color: #999;
+
+    span {
+        color: $purple;
+    }
+}
+
+.tour {
+    h1 {
+        color: $purple;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .view {
+        border-radius: 20px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+
+
+
+
+$purple-bg: #8E89C5;
+$orange-btn: #FFB74D;
+
+.cta {
+    background-color: $purple-bg;
+    border-radius: 40px;
+    margin: 60px 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+        flex: 1;
+        z-index: 2;
+    }
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+
+    &__text {
+        font-size: 16px;
+        margin-bottom: 30px;
+        opacity: 0.9;
+    }
+
+    &__form {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    &__input {
+        flex: 1;
+        padding: 15px 25px;
+        border-radius: 30px;
+        border: none;
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    &__submit {
+        background-color: $orange-btn;
+        color: #fff;
+        border: none;
+        padding: 15px 40px;
+        border-radius: 30px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            background-color: darken($orange-btn, 5%);
+        }
+    }
+
+    &__policy {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 11px;
+        opacity: 0.7;
+
+        input {
+            cursor: pointer;
+        }
+    }
+
+    &__image {
+        position: relative;
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__person {
+        position: relative;
+        z-index: 2;
+        max-height: 400px;
+        margin-bottom: -50px;
+    }
+}
+
+.map {
+    margin-bottom: 80px;
+
+    &__wrapper {
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+        border: 1px solid #eee;
+    }
+
+}
+
+
+
+
+
+.footer {
+    padding: 60px 0 30px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 40px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__logo {
+        width: 150px;
+        margin-bottom: 25px;
+    }
+
+    &__phone {
+        display: block;
+        font-size: 28px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+
+    &__mail {
+        color: $footer-text;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__address {
+        margin: 20px 0;
+        font-size: 13px;
+        line-height: 1.5;
+
+        span {
+            color: $blue-accent;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    &__nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+
+        h4 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 8px;
+
+                a {
+                    font-size: 12px;
+                    color: $footer-text;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-size: 11px;
+        color: #828282;
+    }
+
+    &__decor-blob {
+        position: absolute;
+        right: -50px;
+        bottom: -20px;
+        width: 300px;
+        height: 200px;
+        background: #FFEB3B; 
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        z-index: 1;
+        opacity: 0.8;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        &__m-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        &__m-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .btn--mobile {
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 15px;
+            background: #E57373;
+            padding: 15px;
+        }
+
+        .menu,
+        .contacts {
+            display: none;
+        }
+    }
+
+    .burger {
+        width: 24px;
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        span,
+        &::before,
+        &::after {
+            content: '';
+            height: 2px;
+            width: 100%;
+            background: #7D79B1;
+        }
+    }
+
+    .tour {
+        h1 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .view {
+            border-radius: 30px;
+            height: 250px;
+
+            img {
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+
+    .cta {
+        border-radius: 20px;
+        padding: 30px 20px;
+        text-align: center;
+
+        &__container {
+            flex-direction: column; 
+            padding: 0;
+        }
+
+        &__title {
+            font-size: 20px;
+            max-width: 100%;
+        }
+
+        &__form {
+            flex-direction: column;
+
+            input,
+            .cta__submit {
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+
+        &__image {
+            margin-top: 30px;
+
+            .cta__person {
+                max-width: 80%;
+                margin-bottom: -30px;
+            }
+        }
+    }
+
+    .map {
+        &__wrapper {
+            height: 350px;
+            border-radius: 20px;
+        }
+    }
+
+    .footer {
+        text-align: center;
+
+        &__container {
+            grid-template-columns: 1fr;
+        }
+
+        &__main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__nav {
+            display: none;
+        }
+
+        &__menu-btn {
+            display: block;
+            width: 100%;
+            background: #F06292;
+            color: #fff;
+            padding: 15px;
+            border-radius: 20px;
+            margin: 20px 0;
+            border: none;
+            font-weight: 700;
+        }
+
+        &__bottom {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
