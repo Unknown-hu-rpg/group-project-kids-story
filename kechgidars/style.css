@@ -1,0 +1,633 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.navbar{
+    width: 1420px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uldivi ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 565px;
+    height: 17px;
+    color: #334155;
+    
+
+}
+.aniuli a{
+    text-decoration: none;
+    width: 565px;
+    height: 17px;
+    color: #334155;
+
+}
+.aniuli a:hover{
+    color: #8081BD;
+}
+.tel h1,p{
+    width: 220px;
+    height: 15px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #EA5D4A;
+    line-height: 100%;
+
+}
+.tel{
+    display: flex;
+    align-items: center;
+}
+.buttontel{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.numberr{
+    width: 172px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #334155;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.buttontel button a{
+    width: 168px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.buttontel button{
+    width: 192px;
+    height: 40px;
+    background-color: #8081BD;
+    padding: 11px 12px 14px;
+    border: none;
+    border-radius: 50px;
+}
+/* .buttontel button:hover{
+    transform: rotate(20px);
+} */
+
+
+.smollsection1 a{
+    text-decoration: none;
+    color: #334155;
+
+}
+
+.smollsection1 a:hover{
+    color: #8081BD;
+}
+.section_2{
+    width: 420px;
+    height: 49px;
+    font-size: 25px;
+    font-weight: 00;
+    color: #8081BD;
+}
+.box1 img{
+    width: 283.6px;
+    height: 278px;
+    border-radius: 40px;
+}
+.box1 h1{
+    width: 125,26px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #8081BD;
+    margin-top: 28px;
+}
+.box1 h3{
+    width: 241,51px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #334155;
+
+}
+.box1 p{
+    width: 142,3px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #334155;
+}
+
+
+.rasm1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+
+
+.rasm2{
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+.section3{
+    
+    margin-top: 56px;
+}
+.section4{
+    background-image: url(./Vector\ \(22\).png);
+    height: 723px;
+    margin-top: 27px;
+    
+}
+.vectorbolimi{
+    width: 1420px;
+    height: 278px;
+    /* transform:translate(100px 100px) ; */
+    /* transform:; */
+    /* margin-: 149px; */
+    padding: 194px 0px 0px 0px;
+}
+.vector1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 59px;
+}
+
+.vector2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-top: 59px;
+}
+
+.vector3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-top: 59px;
+}
+
+.soat{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.soat img{
+    background-color:#F6B31F;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.soat p{
+    width: 364px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+.soat p span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+
+.grupa{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.grupa img{
+    background-color: #F3ACC8;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+
+.grupa p{
+    width: 364px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+
+.grupa p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+
+.plashadka{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.plashadka img{
+    background-color: #8081BD;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.plashadka p{
+    width: 364px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+.plashadka p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+.video{
+     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.video img{
+    background-color: #8081BD;
+    width: 53,71px;
+    height: 45,74px;
+    padding: 15px 20,5px 25,5px 25px;
+    border-radius: 10px;
+}
+
+.video p{
+    width: 364px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+.video p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+
+.sms{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sms img{
+    background-color: #F6B31F;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.sms p{
+    width: 364px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+.sms p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+.baby{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.baby img{
+    background-color: #F3ACC8;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.baby p{
+    width: 380px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+
+.baby p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+
+.med{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.med img{
+    background-color: #F3ACC8;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.med p{
+    width: 364px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+
+.med p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+
+.dom{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dom img{
+    background-color: #F3ACC8;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.dom p{
+    width: 390px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+
+.dom p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+
+.food{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.food img{
+    background-color: #F3ACC8;
+    width: 45,74px;
+    height: 45,74px;
+    padding: 25px 25,5px 25,5px 25px;
+    border-radius: 10px;
+}
+.food p{
+    width: 390px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #334155;
+}
+
+.food p span{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #334155;
+}
+.rasmqism{
+    /* width: 1804px; */
+    height: 385px;
+    background-color: #8081BD;
+    display: flex;
+    align-items: center;
+
+}
+.rasmqism_right{
+    position: absolute;
+}
+.rasmqism_right img{
+    position:relative;
+    left:900px;
+    bottom: 30px;
+}
+.pasishn1{
+    position: absolute;
+}
+.pasishn1 img{
+    left:670px ;
+    bottom: -190px;
+    width: 230px;
+    height: 257px;
+}
+.div img{
+    width: 1430px;
+}
+.pasishn3{
+    position: absolute;
+}
+.pasishn3 img{
+    position: relative;
+    left: 770px;
+    bottom: -10px;
+    width: 198,98px;
+    height: 339px;
+}
+.pasishn2{
+    position: absolute;
+}
+.pasishn2 img{
+    position: relative;
+    left:660px;
+    bottom: 30px;
+}
+.pasishn4{
+    position: absolute;
+}
+.pasishn4 img{
+    position: relative;
+    left: 870px;
+    bottom: 30px;
+}
+.pasishn5{
+    position: absolute;
+
+}
+.pasishn5 img{
+    position: relative;
+    left: 1090px;
+    bottom: 30px;
+}
+.pasishn6{
+    position: absolute;
+}
+.pasishn6 img{
+    position: relative;
+    left: 1150px;
+    bottom: -250px;
+}
+.section5{
+    position: absolute;
+}
+.rasmqism{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+    border-radius: 40px;
+}
+.rasmqism_left{
+    margin-left: 40px;
+}
+.rasmqism_left h1{
+    width: 589px;
+    height: 98px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.rasmqism_left p{
+    width: 442px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.inputt{
+    width: 308px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.rasmqism_left button{
+    width: 308px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F6B31F;
+    color:#334155;
+}
+.rasmqism_left h6{
+    width: 171px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* .div img{ */
+    /* margin-top:363,49px ; */
+/* } */
+
+.section6{
+    margin-top: 323.49px;
+}
+
+.divimgi{
+    position: absolute;
+}
+.divimgi img{
+    position: relative;
+    width: 70.35px;
+    height: 83.97px;
+    left: 350px;
+    bottom: 250px;
+}
+
+.kidsbolimi{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+}
+.kidsbolimi a{
+    text-decoration: none;
+    color: #334155;
+    
+
+}
+.kids2 a{
+    margin-top: 60px;
+    /* padding: 50px 0px 0px 0px; */
+}
+.footer{
+    height: 412px;
+    margin-top: 56px;
+}
+
+.kidsichi a{
+    width: 343px;
+    height: 38px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #334155;
+}
+.kids1 h1{
+    width: 229px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #334155;
+}
+.kids1 p{
+    width: 283px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.kids1 p span{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(5, 220, 248);
+}
