@@ -1,0 +1,78 @@
+.cta {
+  width: 1200px;
+  padding: 60px 0px;
+  background-color: #8E89C5;
+  border-radius: 40px;
+  margin: 60px auto;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+.cta__container {
+  display: flex;
+  align-items: center;
+}
+.cta__content {
+  flex: 1;
+  z-index: 2;
+}
+.cta__title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+.cta__text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+.cta__form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.cta__input {
+  flex: 1;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  max-width: 300px;
+}
+.cta__submit {
+  background-color: #FFB74D;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.cta__submit:hover {
+  background-color: rgb(255, 172.6853932584, 51.5);
+}
+.cta__policy {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+.cta__policy input {
+  cursor: pointer;
+}
+.cta__image {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.cta__person {
+  position: relative;
+  z-index: 2;
+  max-height: 400px;
+  margin-bottom: -50px;
+}/*# sourceMappingURL=main.css.map */
